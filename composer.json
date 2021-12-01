@@ -1,4 +1,5 @@
 {
+    "name": "goondesigngd/sequence-php-sdk",
     "autoload": {
         "psr-4": {"SequencePhpSdk\\": "src/"}
     },
