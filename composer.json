@@ -1,9 +1,26 @@
 {
     "name": "goondesigngd/sequence-php-sdk",
+	"description": "SDK em PHP para conexão com a API do Sequence Web",
+	"type": "library",
+	"keywords": ["sdk", "php", "sequence", "sequenceweb"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Eduardo Schenato dos Santos",
+			"email": "desenvolvimento@goondesign.com.br"
+		},
+		{
+			"name": "Rodrigo Werlin",
+			"email": "rodrigo@goondesign.com.br"
+		}
+	],
     "autoload": {
-        "psr-4": {"SequencePhpSdk\\": "src/"}
+        "psr-4": {
+            "Sequencephpsdk\\": "src/"
+        }
     },
     "require": {
+		"php": ">=7.0.0",
         "guzzlehttp/guzzle": "6.3.3"
     }
 }

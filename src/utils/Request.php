@@ -1,6 +1,6 @@
 <?php
 
-namespace SequencePhpSdk\Util;
+namespace Sequencephpsdk\Utils;
 
 use GuzzleHttp\Client;
 
